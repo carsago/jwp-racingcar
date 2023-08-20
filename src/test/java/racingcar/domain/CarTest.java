@@ -15,6 +15,7 @@ public class CarTest {
     @DisplayName("자동차의 이름의 길이가 1이상 5이하가 아니면 오류가 발생한다.")
     void carGenerateTest(String name) {
         //when && then
+        System.out.println("뭔가 되면 좋겟는데");
         assertThatThrownBy(() -> new Car(name))
                 .isInstanceOf(IllegalArgumentException.class)
                 .hasMessage("자동차 이름은 1자 이상 5자 이하여야 합니다.");
