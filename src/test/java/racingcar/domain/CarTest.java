@@ -17,6 +17,7 @@ public class CarTest {
         //when && then
         System.out.println("뭔가 되면 좋겟는데");
         System.out.println("뭔가 되면 좋겟는데");
+        System.out.println("뭔가 되면 좋겟는데");
         assertThatThrownBy(() -> new Car(name))
                 .isInstanceOf(IllegalArgumentException.class)
                 .hasMessage("자동차 이름은 1자 이상 5자 이하여야 합니다.");
