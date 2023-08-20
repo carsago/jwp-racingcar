@@ -19,6 +19,7 @@ public class CarTest {
                 .isInstanceOf(IllegalArgumentException.class)
                 .hasMessage("자동차 이름은 1자 이상 5자 이하여야 합니다.");
         System.out.println("hello, world");
+        System.out.println("hello, world");
     }
 
     @ParameterizedTest
